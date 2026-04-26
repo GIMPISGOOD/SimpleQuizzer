@@ -1,0 +1,11 @@
+/* Web 1.0 - Win98复古风格 */
+QWidget {font-family: "SimSun", sans-serif; font-size: 12px; color: #000; background-color: #C0C0C0;}
+QMainWindow, QDialog, QWidget {background-color: #C0C0C0;}
+QLabel#TitleLabel {font-size:14px; font-weight:bold; color:#FFF; background:#000080; border:2px solid #000; padding:4px;}
+QPushButton {background:#C0C0C0; color:#000; border:2px solid #FFF; border-right-color:#808080; border-bottom-color:#808080; padding:4px 10px;}
+QPushButton:pressed {border:2px solid #808080; border-right-color:#FFF; border-bottom-color:#FFF;}
+QLineEdit, QTextEdit, QComboBox {background:#FFF; border:2px solid #000; padding:2px;}
+QGroupBox {border:2px solid #000; margin-top:10px;}
+QScrollBar:vertical {width:16px; background:#C0C0C0; border:2px solid #000;}
+QScrollBar::handle:vertical {background:#C0C0C0; border:2px solid #FFF; border-right-color:#808080; border-bottom-color:#808080;}
+* {border-radius:0px;}
